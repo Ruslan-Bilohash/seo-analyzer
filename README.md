@@ -43,8 +43,10 @@ It checks the most important on-page factors and provides clear, actionable reco
 - Modern, clean and fully responsive design
 
 ### Screenshots
-![Screenshot 1](https://edukvam.com/seo/screen.jpg)
-![Screenshot 2](https://edukvam.com/seo/screen2.jpg)
+### Skjermbilder
+![Skjermbilde 1](https://edukvam.com/seo/screen.jpg)
+![Skjermbilde 2](https://edukvam.com/seo/screen2.jpg)
+![Skjermbilde 3](https://edukvam.com/seo/screen3.jpg)
 
 ### Comparison Table
 
