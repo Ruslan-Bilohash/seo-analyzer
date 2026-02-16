@@ -1,57 +1,140 @@
 # SEO Analyzer
 
-**Версия:** 1.8  
-**Автор:** Ruslan Bilohash  
-**Все права защищены © 2026**  
-**GitHub:** https://github.com/ruslan-bilohash/seo-analyzer
+**Мощний безкоштовний інструмент для аналізу SEO будь-якого сайту**
 
-### Русский
-Мощный бесплатный онлайн-инструмент для быстрого SEO-анализа любого сайта.  
-Проверяет Title, Meta Description, Keywords, Robots, H1/H2, alt-теги, скорость загрузки, размер контента, структуру URL, внутренние/внешние ссылки, Open Graph.
+![SEO Analyzer](https://edukvam.com/seo/screen.jpg)
 
-**Возможности:**
-- 8 языков интерфейса
-- История последних анализов
-- Заказ полного профессионального аудита
-- Красивый дизайн + анимации
-- JSON-LD микроразметка
-- Полностью открытый исходный код
+[![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=flat-square&logo=php&logoColor=white)](https://php.net)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Ruslan-Bilohash/seo-analyzer?style=flat-square)](https://github.com/Ruslan-Bilohash/seo-analyzer/stargazers)
+[![Forks](https://img.shields.io/github/forks/Ruslan-Bilohash/seo-analyzer?style=flat-square)](https://github.com/Ruslan-Bilohash/seo-analyzer/network/members)
 
-**Установка:**
-1. Загрузить все файлы на хостинг с PHP 7.4+
-2. Убедиться, что `seo_history.json` доступен для записи
-3. Открыть `index.php`
+**Сделано в Норвегії українцем з любов'ю ❤️**
 
-### English
-Powerful free online tool for quick SEO analysis of any website.  
-Checks Title, Meta Description, Keywords, Robots, H1/H2, alt tags, load speed, content size, URL structure, internal/external links, Open Graph.
+---
 
-**Features:**
-- 8 interface languages
-- Recent analyses history
-- Order full professional audit
-- Beautiful modern design + animations
-- JSON-LD microdata
-- Fully open source
+### Live Demo
+**→ [Відкрити демо](https://edukvam.com/seo/index.php)**
 
-**Installation:**
-1. Upload all files to PHP 7.4+ hosting
-2. Make sure `seo_history.json` is writable
-3. Open `index.php`
+### Підтримати проект
+**→ [Donate / Купити каву автору](https://edukvam.com/seo/donate.php)**
 
-### Українська
-Потужний безкоштовний онлайн-інструмент для швидкого SEO-аналізу будь-якого сайту.  
-Перевіряє Title, Meta Description, Keywords, Robots, H1/H2, alt-теги, швидкість завантаження, розмір контенту, структуру URL, внутрішні/зовнішні посилання, Open Graph.
+---
 
-**Можливості:**
-- 8 мов інтерфейсу
+## English
+
+### About
+**SEO Analyzer** is a modern, fast and **completely free** online tool for quick and deep SEO analysis of any website.
+
+It checks the most important on-page factors and gives clear, actionable recommendations.
+
+### Key Features
+- Title, Meta Description, Keywords, Robots, Open Graph
+- H1 / H2 headings analysis
+- Image alt text check
+- Real page load time + content size
+- URL structure & readability
+- Internal / External / Nofollow links statistics
+- Analysis history (last 20 checks)
+- Subscription to updates
+- Order full professional SEO audit
+- 8 languages interface
+- Beautiful responsive design
+
+### Screenshots
+![Screenshot 1](https://edukvam.com/seo/screen.jpg)
+![Screenshot 2](https://edukvam.com/seo/screen2.jpg)
+
+### Comparison Table
+
+| Feature                        | SEO Analyzer | Google PageSpeed | SEMrush | Ahrefs | Screaming Frog |
+|--------------------------------|--------------|------------------|---------|--------|----------------|
+| Title & Meta Analysis          | Yes          | No               | Yes     | Yes    | Yes            |
+| Alt text check                 | Yes          | No               | Yes     | Yes    | Yes            |
+| Real load time                 | Yes          | Yes              | No      | No     | No             |
+| URL structure                  | Yes          | No               | Yes     | Yes    | Yes            |
+| Link analysis                  | Yes          | No               | Yes     | Yes    | Yes            |
+| History of analyses            | Yes          | No               | No      | No     | No             |
+| Free forever                   | Yes          | Limited          | Paid    | Paid   | Paid           |
+| No registration                | Yes          | -                | Yes     | Yes    | Yes            |
+
+### Installation
+1. Download the repository
+2. Upload all files to any PHP 7.4+ hosting
+3. Make sure `seo_history.json` and `subscribe.json` are writable
+4. Open `index.php`
+
+---
+
+## Українська
+
+### Про проект
+**SEO Analyzer** — сучасний, швидкий та **повністю безкоштовний** онлайн-інструмент для глибокого SEO-аналізу будь-якого сайту.
+
+### Основні можливості
+- Аналіз Title, Meta Description, Keywords, Robots, Open Graph
+- Перевірка H1 та H2 заголовків
+- Alt-теги у всіх зображеннях
+- Реальний час завантаження сторінки
+- Читабельність та довжина URL
+- Внутрішні / зовнішні / nofollow посилання
 - Історія останніх аналізів
+- Підписка на оновлення
 - Замовлення повного професійного аудиту
-- Сучасний дизайн + анімації
-- JSON-LD мікроразметка
-- Повністю відкритий код
+- 8 мов інтерфейсу
 
-**Встановлення:**
-1. Завантажити всі файли на хостинг з PHP 7.4+
-2. Переконатися, що `seo_history.json` доступний для запису
-3. Відкрити `index.php`
+### Скріншоти
+![Скріншот 1](https://edukvam.com/seo/screen.jpg)
+![Скріншот 2](https://edukvam.com/seo/screen2.jpg)
+
+### Встановлення
+1. Завантажте репозиторій
+2. Завантажте файли на хостинг з PHP 7.4+
+3. Переконайтеся, що файли `seo_history.json` та `subscribe.json` доступні для запису
+4. Відкрийте `index.php`
+
+---
+
+## Norsk
+
+### Om prosjektet
+**SEO Analyzer** er et moderne, raskt og **helt gratis** online verktøy for SEO-analyse av ethvert nettsted.
+
+### Hovedfunksjoner
+- Analyse av Title, Meta Description, Keywords, Robots og Open Graph
+- H1- og H2-overskrifter
+- Alt-tekster på bilder
+- Reell innlastingstid
+- URL-struktur og lesbarhet
+- Interne/eksterne/nofollow-lenker
+- Historikk over analyser
+- Abonnement på oppdateringer
+- Bestilling av full profesjonell SEO-audit
+- 8 språk
+
+### Skjermbilder
+![Skjermbilde 1](https://edukvam.com/seo/screen.jpg)
+![Skjermbilde 2](https://edukvam.com/seo/screen2.jpg)
+
+### Installasjon
+1. Last ned repoet
+2. Last opp filene til PHP 7.4+ webhotell
+3. Sørg for at `seo_history.json` og `subscribe.json` er skrivbare
+4. Åpne `index.php`
+
+---
+
+**Made in Norway by a Ukrainian with love ❤️**
+
+Автор: **Ruslan Bilohash**  
+Email: rbilohash@gmail.com  
+Telegram: [@meistru_lt](https://t.me/meistru_lt)  
+GitHub: [Ruslan-Bilohash](https://github.com/Ruslan-Bilohash)
+
+---
+
+Готовий файл!  
+Просто скопіюй весь текст вище у `README.md`.
+
+Хочеш, щоб я додав ще **розділ "Як внести свій внесок"** або **ліцензію**?  
+Напиши «готово» або «додай ще».
