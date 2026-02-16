@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Analyzer — README</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --dark: #0f172a;
+            --light: #f8fafc;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #f8fafc, #e0f2fe);
+            color: #1e2937;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 80px 20px 60px;
+            background: linear-gradient(135deg, var(--primary), #4f46e5);
+            color: white;
+            border-radius: 0 0 30px 30px;
+        }
+        header h1 {
+            font-size: 52px;
+            margin: 0 0 12px;
+        }
+        header p {
+            font-size: 22px;
+            opacity: 0.95;
+        }
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 15px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .section {
+            margin: 80px 0;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: var(--primary);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .feature-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(99,102,241,0.2);
+        }
+        .feature-card i {
+            font-size: 42px;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        .structure {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .file-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        .file {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 12px;
+            font-family: monospace;
+        }
+        .install {
+            background: #1e2937;
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+        }
+        .install code {
+            background: #334155;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            background: #0f172a;
+            color: #94a3b8;
+            border-radius: 30px 30px 0 0;
+        }
+        .heart {
+            color: #ef4444;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1><i class="fas fa-chart-line"></i> SEO Analyzer</h1>
+        <p>Мощный бесплатный инструмент для анализа и улучшения SEO вашего сайта</p>
+        <div class="badge">Версия 1.8 • 8 языков • Открытый код</div>
+    </header>
+
+    <div class="section">
+        <h2>О проекте</h2>
+        <p><strong>SEO Analyzer</strong> — это современный, быстрый и полностью бесплатный онлайн-инструмент для анализа основных SEO-параметров любой веб-страницы.</p>
+        <p>Он помогает веб-мастерам, SEO-специалистам и владельцам сайтов быстро находить проблемы и получать конкретные рекомендации по улучшению.</p>
+    </div>
+
+    <div class="section">
+        <h2>Возможности</h2>
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-heading"></i>
+                <h3>Title & Meta</h3>
+                <p>Проверка длины Title, Description, Keywords, Robots, Open Graph</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-font"></i>
+                <h3>H1 / H2</h3>
+                <p>Количество заголовков и рекомендации</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-image"></i>
+                <h3>Изображения</h3>
+                <p>Проверка alt-тегов у всех картинок</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>Скорость</h3>
+                <p>Время загрузки + размер контента</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-link"></i>
+                <h3>Ссылки & URL</h3>
+                <p>Внутренние / внешние / nofollow + читаемость URL</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-history"></i>
+                <h3>История анализов</h3>
+                <p>Сохранение последних проверок</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-globe"></i>
+                <h3>8 языков</h3>
+                <p>Русский, English, Українська, Lietuvių, Polski, ქართული, Norsk, Deutsch</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clipboard-list"></i>
+                <h3>Заказ аудита</h3>
+                <p>Форма заявки на полный профессиональный аудит</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Структура проекта</h2>
+        <div class="structure">
+            <div class="file-list">
+                <div class="file">index.php</div>
+                <div class="file">header.php</div>
+                <div class="file">footer.php</div>
+                <div class="file">lang.php</div>
+                <div class="file">module.php</div>
+                <div class="file">about.php</div>
+                <div class="file">donate.php</div>
+                <div class="file">feedback.php</div>
+                <div class="file">subscribe.php</div>
+                <div class="file">subscribe.json</div>
+                <div class="file">seo_history.json</div>
+                <div class="file">README.html ← ты здесь</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section install">
+        <h2 style="color:white;">Как установить</h2>
+        <ol style="color:#e0f2fe;">
+            <li>Скачай все файлы проекта</li>
+            <li>Загрузи их на хостинг с поддержкой PHP 7.4+</li>
+            <li>Убедись, что файлы <code>seo_history.json</code> и <code>subscribe.json</code> доступны для записи</li>
+            <li>Открой в браузере <code>index.php</code></li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Контакты и поддержка</h2>
+        <p>
+            Автор: <strong>Ruslan Bilohash</strong><br>
+            Email: <a href="mailto:rbilohash@gmail.com">rbilohash@gmail.com</a><br>
+            GitHub: <a href="https://github.com/Ruslan-Bilohash/seo-analyzer" target="_blank">github.com/Ruslan-Bilohash</a><br>
+            Telegram: <a href="https://t.me/meistru_lt" target="_blank">@meistru_lt</a>
+        </p>
+        <p><strong>Сделано в Норвегии украинцем с любовью для вас ❤️</strong></p>
+    </div>
+
+</div>
+
+<footer>
+    <p style="margin:0;">© 2026 Ruslan Bilohash • Все права защищены</p>
+    <p style="margin:15px 0 0; font-size:14px; opacity:0.7;">
+        Проект открыт для улучшений и форков
+    </p>
+</footer>
+
+</body>
+</html>
