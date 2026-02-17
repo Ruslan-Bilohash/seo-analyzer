@@ -89,7 +89,7 @@ It checks the most important on-page factors and provides clear, actionable reco
 **Зроблено в Норвегії українцем з любов’ю ❤️**
 
 **[Відкрити демо →](https://edukvam.com/seo/index.php)**  
-**[Підтримати автора →](https://edukvam.com/seo/donate.php)**
+**[Підтримати автора →](https://www.paypal.com/donate/?hosted_button_id=GSS6YYMXZ3J4N)**
 
 ---
 
@@ -115,7 +115,7 @@ Verktøyet sjekker de viktigste on-page faktorene og gir klare, handlingsrettede
 **Laget i Norge av en ukrainer med kjærlighet ❤️**
 
 **[Live Demo →](https://edukvam.com/seo/index.php)**  
-**[Støtt prosjektet →](https://edukvam.com/seo/donate.php)**
+**[Støtt prosjektet →](https://www.paypal.com/donate/?hosted_button_id=GSS6YYMXZ3J4N)**
 
 ---
 
