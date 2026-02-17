@@ -19,7 +19,7 @@
 **[Відкрити демо →](https://edukvam.com/seo/index.php)**
 
 ### Підтримати автора
-**[Купити каву автору →](https://edukvam.com/seo/donate.php)**
+**[Купити каву автору →](https://www.paypal.com/donate/?hosted_button_id=GSS6YYMXZ3J4N)**
 
 ---
 
